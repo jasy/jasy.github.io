@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Setup GitHub Pages using Jekyll"
+title:  "Setup GitHub Pages with Jekyll"
 date:   2016-12-30 22:30:00 +0900
 categories: github pages
 ---
 [GitHub Pages](https://pages.github.com/)で標準サポートの
-[Jekyll](https://jekyllrb.com/)を使って見たので設定方法だけ残しておく。
+[Jekyll](https://jekyllrb.com/)を使ってみたので設定方法だけ残しておく。
 
 ## GitHub Pagesのローカル環境
 必須ではないがローカルでも扱えた方が便利だろうと以下を参考に環境を整えた。
@@ -23,6 +23,7 @@ echo 'eval "$(rbenv init -)"' >> ~/.profile
 
 ```shell
 rbenv install 2.3.3
+rbenv local 2.3.3
 ```
 
 依存するGemの[Nokogiri](https://github.com/sparklemotion/nokogiri)のビルドが遅いのでGemfileに若干工夫を入れる
@@ -70,7 +71,7 @@ Jekyllの説明(↓)によると、同じファイルは選択したthemeより�
 と思いつつとりあえずこのまま行くことにする。
 
 ## Syntax highlighting
-Syntax highlightingが標準で入っているのはありがたいと説明だけ見てこの記事書いた。
+[Rouge](https://github.com/jneen/rouge)が標準で入っているのはありがたいと説明だけ見てこの記事書いた。
 
 * [Using syntax highlighting on GitHub Pages - User Documentation](https://help.github.com/articles/using-syntax-highlighting-on-github-pages/)
 * [List of supported languages and lexers · jneen/rouge Wiki · GitHub](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers)
