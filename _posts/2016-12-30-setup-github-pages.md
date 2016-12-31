@@ -75,3 +75,9 @@ Jekyllの説明(↓)によると、同じファイルは選択したthemeより�
 
 * [Using syntax highlighting on GitHub Pages - User Documentation](https://help.github.com/articles/using-syntax-highlighting-on-github-pages/)
 * [List of supported languages and lexers · jneen/rouge Wiki · GitHub](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers)
+
+## 制御構文や変数
+[Liquid](https://shopify.github.io/liquid/)がベース。
+`site.github`変数が使える。
+
+* [Repository metadata on GitHub Pages - User Documentation](https://help.github.com/articles/repository-metadata-on-github-pages/)
